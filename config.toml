@@ -1,0 +1,66 @@
+baseurl = "https://blog.ismferd.net"
+languageCode = "es-es"
+title = "Ismael Fernandez's Blog"
+disqusShortname = "ismferd"
+googleAnalytics = "UA-44296526-1"
+paginate = 10
+footnotereturnlinkcontents = "↩"
+theme = "icarus"
+enableGitInfo = true
+
+[frontmatter]
+	date = ["date", "publishDate", "lastmod"]
+	lastmod = [":git", "lastmod", "date", "publishDate"]
+	publishDate = ["publishDate", "date"]
+	expiryDate = ["expiryDate"]
+
+
+[permalinks]
+	post = "/:slug"
+
+
+[params]
+	author = "Ismael Fernandez"
+	bio = "System Engineer"
+	location = "Barcelona"
+	site_description = "Dumps of my mind"
+	copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](https://github.com/ppoffice)."
+	avatar = "images/avatar.png"
+	logo = "images/avatar.png"
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02T15:04:05Z"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_css = []
+	custom_js  = []
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+	before = true
+	label  = "Home"
+	link   = "/"
+
+# Enter a link for the follow button on the left
+[params.profile]
+	
+
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+	github          = "ismferd"
+	stackoverflow   = "16872317/ismferd"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+	recent_articles = true
+	categories = true
+	tags = true
+	tag_cloud = true
