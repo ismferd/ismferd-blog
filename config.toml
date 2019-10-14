@@ -211,3 +211,4 @@ theme = "aafu"
 		    hobby = "Hiking"
         [[params.hobby.list]]		
 		    hobby = "Baking"
+theme = "aafu"
