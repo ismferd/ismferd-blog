@@ -88,7 +88,7 @@ theme = "aafu"
             position = "SRE"
             dates = "2016 - 2019"
             company = "Adevinta"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            details = "SRE of Platform Team, I was responsible to maintain the next stacks: ELK, Kafka, Microservices Deployer, Jenkins, Zookeeper, Eureka, Zuul. Moreover, I gave advices to teams about how monitor their apps, and so on."
         [[params.experience.list]]
             position = "System Engineer"
             dates = "2015 - 2016"
@@ -102,7 +102,7 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Degree Compter Science"
+            degree = "Computer Science Degree"
             college = "UOC"
             dates = "2013 - 2019"
             thesis_title = "Aplicar Kubernetes sobre un entorno cloud comunitario y descentralizado."
