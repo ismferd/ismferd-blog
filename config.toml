@@ -14,7 +14,7 @@ theme = "aafu"
         mainTheme = "light"
         altTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
 
     [params.favicons]
         use = true
@@ -29,7 +29,7 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "Ismael Fernandez Molina's Blog"
+        name = "Ismael Fernandez' Blog"
 		tagline = "ismferd"
 		location = "Barcelona"
         photo = "profile.jpg"
@@ -74,23 +74,27 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "**Man in love, techie and passionate about nature.**"
 
     # Experience section
     [params.experience]
         title = "Experiences"
         icon = "fas fa-briefcase"
-
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
+            position = "SRE"
+            dates = 2019" - *Present*"
+            company = "Letgo"
+        [[params.experience.list]]
+            position = "SRE"
+            dates = "2016 - "2019" *Present*"
+            company = "Adevinta"
             details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
+            position = "System Engineer"
+            dates = "2015 - 2016"
             link = "#"
-            company = "Company Name"
+            company = "Schibsted Spain"
+            details = "We migrated all Segundamano.com from CPD to AWS"
 
     # Education section
     [params.education]
@@ -98,21 +102,15 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
+            degree = "Degree Compter Science"
+            college = "UOC"
+            dates = "2013 - 2019"
+            thesis_title = "Aplicar Kubernetes sobre un entorno cloud comunitario y descentralizado."
+            thesis_link = "http://openaccess.uoc.edu/webapps/o2/handle/10609/95506"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "Computer Science Degree"
+            college = "UPC"
+            dates = "2005 - 2010"
 
     # Publication section
     [params.publication]
