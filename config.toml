@@ -6,7 +6,7 @@ theme = "aafu"
     title = "Ismael Fernandez' Blog"
     author = "Ismael Fernandez Molina"
     description = "Dumps of my mind"
-    copyright = "aaa"
+    copyright = ""
 
     [params.theme]
         allowToggle = true
